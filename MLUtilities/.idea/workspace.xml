@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c375b455-2964-4581-948a-73b28cfe9161" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1uD52ckFTjTWUYgTvMNcN7o61cL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="D:/Git tutorials" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Data Science\TimeSeriesModelling\Walmart-Sales-Data\MLUtilities\Data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Main">
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="MLUtilities" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
+      <option name="PARAMETERS" value="-W ignore" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ModelCreatorFactory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MLUtilities" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TrainingUtilities" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Data Science\TimeSeriesModelling\Walmart-Sales-Data\MLUtilities\TrainingUtilities\ModelCreatorFactory.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="MLUtilities" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Main" />
+      <item itemvalue="Python.ModelCreatorFactory" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ModelCreatorFactory" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c375b455-2964-4581-948a-73b28cfe9161" name="Default Changelist" comment="" />
+      <created>1624187112965</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624187112965</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="19" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625307555034">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1625307555034" />
+    <state x="454" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1627109656229">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="454" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1627109656229" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1629980830057">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1629980830057" />
+    <state width="1345" height="304" key="GridCell.Tab.0.bottom" timestamp="1627273339692">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="304" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627273339692" />
+    <state width="1345" height="304" key="GridCell.Tab.0.center" timestamp="1627273339691">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="304" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1627273339691" />
+    <state width="1345" height="304" key="GridCell.Tab.0.left" timestamp="1627273339691">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="304" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1627273339691" />
+    <state width="1345" height="304" key="GridCell.Tab.0.right" timestamp="1627273339692">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="304" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1627273339692" />
+    <state width="1345" height="244" key="GridCell.Tab.1.bottom" timestamp="1625120543741">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="244" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625120543741" />
+    <state width="1345" height="244" key="GridCell.Tab.1.center" timestamp="1625120543741">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="244" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1625120543741" />
+    <state width="1345" height="244" key="GridCell.Tab.1.left" timestamp="1625120543741">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="244" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1625120543741" />
+    <state width="1345" height="244" key="GridCell.Tab.1.right" timestamp="1625120543741">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="244" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1625120543741" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1624959810491">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1624959810491" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1629980795154">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1629980795154" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1627109643194">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1627109643194" />
+    <state x="405" y="276" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1625134963577">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="405" y="276" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1366.728@0.0.1366.728" timestamp="1625134963577" />
+  </component>
+</project>
