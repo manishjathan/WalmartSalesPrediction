@@ -4,28 +4,39 @@ from Director.DataPreparation import prepareTrainTestData
 from TrainingUtilities.UtilityFunctions import TimeSeriesUtilities
 import pickle
 import pandas as pd
+from EvaluationUtilities.ModelEvaluation import calcRMSE
 
 if __name__ == '__main__':
-    """
-    Xtrain, Xtest, ytrain, ytest = prepareTrainTestData(perc_split=0.2)
-    dict_params = {'n_estimators' : [i for i in range(30,110,20)],
-                   'max_depth' : [i for i in range(5, 15, 2)]}
 
-    loopBasedGCV(dict_params['n_estimators'],
-                 dict_params['max_depth'],
-                 Xtrain, ytrain)
-    
-    lpb_df = pickle.load(open('./Data/lpb_hyper_param_df','rb'))
-    print(lpb_df.head())
 
-    """
     train_df = pd.read_csv('./Data/train.csv','rb')
     train_df['weights'] = train_df.apply(lambda row : 5 if train_df['IsHoliday'] == True else 1)
-    print(train_df.head())
-    """
+
     sd11 = pickle.load(open('./Data/sd11.pkl','rb'))
     sd11_train = sd11[:100]
     sd11_cv = sd11[100:]
-    print(sd11_train)
-    #TimeSeriesUtilities.rolling_forecast_generic(sd11)
-    """
+
+    SP = [i for i in range(0,3)]
+    SD = [i for i in range(0,3)]
+    SQ = [i for i in range(0,3)]
+    SS = [i for i in range(47,53)]
+
+    optimal_trend_param = ()
+    optimal_seasonal_param = ()
+    true_values = sd11_cv
+    min_rmse = 1000000
+    for p in SP:
+        for d in SD:
+            for q in SQ:
+                for s in SS:
+                    seasonal_order = (p,d,q,s)
+                    pred_values = TimeSeriesUtilities.rolling_forecast_generic(sd11_train,sd11_cv,
+                                                                 trend_order=(0,0,0),
+                                                                 s_order = seasonal_order)
+                    rmse = calcRMSE(true_values,pred_values)
+                    if min_rmse > rmse:
+                        min_rmse = rmse
+                        optimal_seasonal_param = seasonal_order
+
+    print("Optimal Seasonal Order : ",optimal_seasonal_param)
+
